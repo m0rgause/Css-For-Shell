@@ -57,13 +57,13 @@
 	    	.tbhome tr {
 	    		padding: 10px;
 	    	}
-	    	.shadow {
+.shadow {
   position: relative;  
   width: 99%;
   height: 100%;
   background: linear-gradient(0deg,#000,#262626);  
 }
-.shadow:before,
+/* .shadow:before,
 .shadow:after {
   content: '';
   position: absolute;
@@ -78,8 +78,8 @@
 }
 .shadow:after {
   filter: blur(20px)
-}
-@keyframes animate {
+} */
+/* @keyframes animate {
   0% {
     background-position: 0 0;
   }
@@ -89,4 +89,4 @@
   100% {
     background-position: 0 0;
   }
-}
+} */
